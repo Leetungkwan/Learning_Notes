@@ -2,8 +2,8 @@
 2. Ctrl + d退出当前用户
 3.  history 查看历史指令
 4. Ctrl + r ‘关键词’ 匹配command
-5. ![[Pasted image 20221126175024.png]]
-6. ![[Pasted image 20221126175052.png]]
+5. ![Pasted image 20221126175024](./linux3.assets/Pasted%20image%2020221126175024.png)
+6. ![Pasted image 20221126175052](./linux3.assets/Pasted%20image%2020221126175052.png)
 7. systemctl start/stop/status/enable/disable 软件名 **可以控制软件**
 8.  ln -s 被链接的文件/文件夹 要链接去的目的地  类似【快捷方式】
 9. ifconfig 查看IP地址
