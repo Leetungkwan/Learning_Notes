@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL(DDL)语句.md",
+                "file": "Linux/linux3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL(DDL)语句.md",
+                "file": "Linux/linux3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL(DDL)语句.md",
+                "file": "Linux/linux3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL(DDL)语句.md"
+                "file": "Linux/linux3.md"
               }
             }
           }
@@ -140,13 +140,13 @@
   "lastOpenFiles": [
     "Linux/linux2.md",
     "Linux/linux3.md",
+    "imgs/Pasted image 20221126175052.png",
+    "MySQL/MySQL(DDL)语句.md",
     "Linux/linux1.md",
     "imgs/linux/Pasted image 20221126175052.png",
     "imgs/linux/Pasted image 20221126175024.png",
     "imgs/linux/Pasted image 20221126174859.png",
     "imgs/linux/Pasted image 20221126174834.png",
-    "imgs/linux/Pasted image 20221126174805.png",
-    "imgs/linux/Pasted image 20221126174742.png",
-    "imgs/linux/Pasted image 20221126174506.png"
+    "imgs/linux/Pasted image 20221126174805.png"
   ]
 }
