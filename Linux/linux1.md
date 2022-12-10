@@ -24,7 +24,7 @@
 
 11. grep [-n] 关键字 文件路径， 用来在文件中通过关键字过滤文件行，关键字建议带‘ ’符号
 
-12.
+12. ![image-20221210223215447](E:/obsidian_project/learning/Linux/linux1.assets/image-20221210223215447.png)
 
 13. which 查看所使用的一系列命令的程序文件
 
