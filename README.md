@@ -10,3 +10,6 @@ Here I keep my study notes for learning various computer languages or tools
 
 ## commit in 2022/12/10
   > prefect my directory.
+
+## commit in 2022/12/24
+  > upload MySQL（DML）.md
