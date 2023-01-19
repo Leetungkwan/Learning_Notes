@@ -13,3 +13,6 @@ Here I keep my study notes for learning various computer languages or tools
 
 ## commit in 2022/12/24
   > upload MySQL（DML）.md
+
+## commit in 2023/1/19
+  > upload MySQL（DQL）.md
