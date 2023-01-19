@@ -24,7 +24,7 @@
 4. 表修改
 	1. `alter table 表名 add 字段名 类型（长度）[comment ];` 添加字段
 	2. `alter table 表名 modify 字段名 新数据类型（长度）;`修改数据类型
-	3. `alter table 表名 change 旧字段名 新字段名 类型（长度）[comment ];`
+	3. `alter table 表名 change 旧字段名 新字段名 类型（长度）[comment ];` 修改字段名和数据类型
 	4. `alter table 表名 drop 字段名;` 删除字段
 	5. `alter table 表名 rename to 新表名; ` 修改表名
 	6. `drop table [if exists] 表名;` 删除表
