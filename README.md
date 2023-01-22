@@ -16,3 +16,6 @@ Here I keep my study notes for learning various computer languages or tools
 
 ## commit in 2023/1/19
   > upload MySQL（DQL）.md
+
+## commit in 2023/1/22
+  > upload MySQL（DCL）.md && MySQL（function）.md
