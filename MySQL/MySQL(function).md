@@ -22,7 +22,7 @@
 | :--------: | ---------------------------------- |
 |  ceil(x)   | 向上取整                           |
 |  floor(x)  | 向下取整                           |
-|  mod(x,y)  | 返回x/y的模                        |
+|  mod(x,y)  | 返回x//y                           |
 |   rand()   | 返回0~1内的随机数                  |
 | round(x,y) | 求参数x的四舍五入的值，保留y位小数 |
 
@@ -39,7 +39,14 @@
 | date_add(date, INTERVAL expr type) | 返回一个日期/时间值加上一个时间间隔expr后的时间值 |
 |       datediff(date1,date2)        | 返回起始时间date1 和 结束时间date2之间的天数      |
 
+## 流程函数
 
+|                            函数                            | 功能                                                     |
+| :--------------------------------------------------------: | -------------------------------------------------------- |
+|                       if(value,t,f)                        | 如果value为true，则返回t，否则返回f                      |
+|                   ifnull(value1,value2)                    | 如果value1不为空，返回value1，否则返回value2             |
+|    case when [val1] then [res1] ... else [default] end     | 如果val1为true，返回res1，...否则返回default默认值       |
+| case [expr] when [val1] then [res1] ... else [default] end | 如果expr的值等于val1，返回res1，...否则返回default默认值 |
 
 
 

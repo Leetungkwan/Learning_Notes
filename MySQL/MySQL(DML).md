@@ -10,7 +10,7 @@
 
    实际语句：`insert into tb_user values (2, 'bob', 28, 'm');`
 
-3. insert into 表名（字段1，字段2，。。。） values（值1，值2，。。。）, values（值1，值2，。。。）, values（值1，值2，。。。）;` 批量给指定字段添加数据
+3. `insert into 表名（字段1，字段2，。。。） values（值1，值2，。。。）, values（值1，值2，。。。）, values（值1，值2，。。。）;` 批量给指定字段添加数据
 
    `insert into 表名 values（值1，值2，。。。）, （值1，值2，。。。）, （值1，值2，。。。）;` 批量给全部字段添加数据
 
