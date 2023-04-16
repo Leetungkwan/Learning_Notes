@@ -33,7 +33,7 @@ Here I keep my study notes for learning various computer languages or tools
   > upload folder lanqiao
 
 ## commit in 2023/4/2
-  > upload folder lanqiao
+  > update folder lanqiao
   
 ## commit in 2023/4/16
-  > upload folder MySQL
+  > update folder MySQL
