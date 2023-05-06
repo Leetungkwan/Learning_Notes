@@ -34,6 +34,10 @@ Here I keep my study notes for learning various computer languages or tools
 
 ## commit in 2023/4/2
   > update folder lanqiao
-  
+
 ## commit in 2023/4/16
   > update folder MySQL
+
+## commit in 2023/5/6
+
+  > update folder pandas,numpy,matplotlib

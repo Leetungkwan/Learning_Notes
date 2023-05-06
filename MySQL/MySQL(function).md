@@ -16,8 +16,6 @@
 
 ## 数值函数
 
-
-
 |    函数    | 功能                               |
 | :--------: | ---------------------------------- |
 |  ceil(x)   | 向上取整                           |
@@ -48,15 +46,19 @@
 |    case when [val1] then [res1] ... else [default] end     | 如果val1为true，返回res1，...否则返回default默认值       |
 | case [expr] when [val1] then [res1] ... else [default] end | 如果expr的值等于val1，返回res1，...否则返回default默认值 |
 
+## 窗口函数
 
+特点：`group by`分组汇总后改变了表的行数，一行只有一个类别。而`partiition by`和`rank`函数不会减少原表中的行数。
 
+```mysql
+<窗口函数> over (partition by <用于分组的列名>
+                order by <用于排序的列名>)
+```
 
-
-
-
-
-
-
-
+| 函数         | 功能                                     |
+| ------------ | ---------------------------------------- |
+| rank()       | 如果有并列名次的行，会占用下一名次的位置 |
+| dense_rank() | 如果有并列名次的行，不占用下一名次的位置 |
+| row_number   | 不考虑并列名次的情况                     |
 
 
