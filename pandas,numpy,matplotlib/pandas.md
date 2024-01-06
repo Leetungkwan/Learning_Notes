@@ -92,7 +92,7 @@ iloc -- df1.columns.get_loc(字符串)
 
 ```py
 # 对内容进行排序
-data.sort_values(by="high", ascending=False) # DataFrame内容排序，by后面填写字段名字，ascending = False表面降序排序
+data.sort_values(by="high", ascending=False) # DataFrame内容排序，by后面填写字段名字，ascending = False表示降序排序
 
 # 对索引进行排序
 data.sort_index()
@@ -112,7 +112,7 @@ data["open"].add(3).head() # open统一加3  data["open"] + 3
 data.query("p_change > 2 & low > 15").head()
 
 # isin(values) 判断是否为 values，也是有点像SQL
-data[data["turnover"].isin([4.19, 2.39])]
+data[data["turnover"].isin([4.19, 2.39])] -- isin返回的是布尔值类型
 ```
 
 ```py
@@ -123,6 +123,11 @@ data.describe()
 # 获取最大值
 data.max(axis=0)
 data.idxmax(axis=0) #最大值位置
+
+
+## 拓展 --- value_counts
+对一个列进行索引，然后对其内容进行统计操作
+data['Language'].value_counts()
 ```
 
 ```py

@@ -57,8 +57,12 @@ df.replace(to_replace="", value=np.nan) # to_replace为原来符合，value是�
 # 第一个
 pd.concat((data1,data2),axis=0)
 
-# 第二个
+# 内连接
 pd.merge(left,right,how="inner",on=[索引]) # 用法与数据库一样
+
+# 左连接
+pd.merge(left,right, left_on='departmentId', right_on='id', how='left')
+
 ```
 
 ## 交叉表与透视表 --- 探索两个变量之间的关系

@@ -125,7 +125,7 @@ np.where(np.logical_or(temp > 0.5, temp < -0.5), 11, 3)
 2. ndarray.方法名
 函数：min，max，median，var，std
 temp.max(axis=0) # axis指定维度名字，对于二维数组来说，axis=0意味着对列进行操作，axis=1意味着对行进行操作
-np。max(temp,axis=1) # axis指定维度名字
+np.max(temp,axis=1) # axis指定维度名字
 ```
 
 ```py
